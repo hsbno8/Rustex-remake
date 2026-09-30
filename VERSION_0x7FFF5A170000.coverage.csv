@@ -1,0 +1,17 @@
+record_type,name,rva,size,source,executable,complete,signature_eligible,disk_fallback_allowed,live_verification_bytes,disk_fallback_candidate_bytes,live_verification_pages,modified_pages,total_pages,modified_page_ratio,disk_fallback_reason,live_bytes,disk_bytes,loader_zero_bytes,identical_bytes,runtime_modified_bytes,unavailable_bytes,stability_checked,stable,stability_rereads,stability_changes
+section,".text",0x1000,10752,summary,yes,yes,yes,yes,10752,0,3,0,3,0,"No unavailable executable bytes require disk fallback.",10752,0,0,0,0,0,yes,yes,3,0
+section,".rdata",0x4000,7168,summary,no,yes,yes,no,7168,0,2,1,2,0.5,"The exact-build disk image was not verified.",7168,0,0,0,0,0,no,yes,0,0
+section,".data",0x6000,1684,summary,no,yes,yes,no,1684,0,1,1,1,1,"The exact-build disk image was not verified.",1684,0,0,0,0,0,no,yes,0,0
+section,".pdata",0x7000,1024,summary,no,yes,yes,no,1024,0,1,0,1,0,"The exact-build disk image was not verified.",1024,0,0,0,0,0,no,yes,0,0
+section,".rsrc",0x8000,1536,summary,no,yes,yes,no,1536,0,1,0,1,0,"The exact-build disk image was not verified.",1536,0,0,0,0,0,no,yes,0,0
+section,".reloc",0x9000,512,summary,no,yes,yes,no,512,0,1,0,1,0,"The exact-build disk image was not verified.",512,0,0,0,0,0,no,yes,0,0
+page,,0x0,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,no,yes,0,0
+page,,0x1000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,yes,yes,1,0
+page,,0x2000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,yes,yes,1,0
+page,,0x3000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,yes,yes,1,0
+page,,0x4000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,no,yes,0,0
+page,,0x5000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,no,yes,0,0
+page,,0x6000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,no,yes,0,0
+page,,0x7000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,no,yes,0,0
+page,,0x8000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,no,yes,0,0
+page,,0x9000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,no,yes,0,0

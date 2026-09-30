@@ -1,0 +1,37 @@
+record_type,name,rva,size,source,executable,complete,signature_eligible,disk_fallback_allowed,live_verification_bytes,disk_fallback_candidate_bytes,live_verification_pages,modified_pages,total_pages,modified_page_ratio,disk_fallback_reason,live_bytes,disk_bytes,loader_zero_bytes,identical_bytes,runtime_modified_bytes,unavailable_bytes,stability_checked,stable,stability_rereads,stability_changes
+section,".text",0x1000,68608,summary,yes,yes,yes,yes,68608,0,17,0,17,0,"No unavailable executable bytes require disk fallback.",0,0,0,68608,0,0,yes,yes,17,0
+section,".rdata",0x12000,19968,summary,no,yes,yes,yes,19968,0,5,2,5,0.4,"Verified exact-build fallback is allowed for this non-executable section.",0,0,0,11776,8192,0,no,yes,0,0
+section,".data",0x17000,2400,summary,no,yes,yes,yes,2400,0,1,1,1,1,"Verified exact-build fallback is allowed for this non-executable section.",0,0,0,0,2400,0,no,yes,0,0
+section,".pdata",0x18000,4608,summary,no,yes,yes,yes,4608,0,2,0,2,0,"Verified exact-build fallback is allowed for this non-executable section.",0,0,0,4608,0,0,no,yes,0,0
+section,".didat",0x1A000,512,summary,no,yes,yes,yes,512,0,1,1,1,1,"Verified exact-build fallback is allowed for this non-executable section.",0,0,0,0,512,0,no,yes,0,0
+section,".rsrc",0x1B000,1536,summary,no,yes,yes,yes,1536,0,1,0,1,0,"Verified exact-build fallback is allowed for this non-executable section.",0,0,0,1536,0,0,no,yes,0,0
+section,".reloc",0x1C000,512,summary,no,yes,yes,yes,512,0,1,0,1,0,"Verified exact-build fallback is allowed for this non-executable section.",0,0,0,512,0,0,no,yes,0,0
+page,,0x0,4096,Mixed,,,,,,,,,,,,3072,0,0,0,1024,0,no,yes,0,0
+page,,0x1000,4096,Live and disk identical,,,,,,,,,,,,0,0,0,4096,0,0,yes,yes,1,0
+page,,0x2000,4096,Live and disk identical,,,,,,,,,,,,0,0,0,4096,0,0,yes,yes,1,0
+page,,0x3000,4096,Live and disk identical,,,,,,,,,,,,0,0,0,4096,0,0,yes,yes,1,0
+page,,0x4000,4096,Live and disk identical,,,,,,,,,,,,0,0,0,4096,0,0,yes,yes,1,0
+page,,0x5000,4096,Live and disk identical,,,,,,,,,,,,0,0,0,4096,0,0,yes,yes,1,0
+page,,0x6000,4096,Live and disk identical,,,,,,,,,,,,0,0,0,4096,0,0,yes,yes,1,0
+page,,0x7000,4096,Live and disk identical,,,,,,,,,,,,0,0,0,4096,0,0,yes,yes,1,0
+page,,0x8000,4096,Live and disk identical,,,,,,,,,,,,0,0,0,4096,0,0,yes,yes,1,0
+page,,0x9000,4096,Live and disk identical,,,,,,,,,,,,0,0,0,4096,0,0,yes,yes,1,0
+page,,0xA000,4096,Live and disk identical,,,,,,,,,,,,0,0,0,4096,0,0,yes,yes,1,0
+page,,0xB000,4096,Live and disk identical,,,,,,,,,,,,0,0,0,4096,0,0,yes,yes,1,0
+page,,0xC000,4096,Live and disk identical,,,,,,,,,,,,0,0,0,4096,0,0,yes,yes,1,0
+page,,0xD000,4096,Live and disk identical,,,,,,,,,,,,0,0,0,4096,0,0,yes,yes,1,0
+page,,0xE000,4096,Live and disk identical,,,,,,,,,,,,0,0,0,4096,0,0,yes,yes,1,0
+page,,0xF000,4096,Live and disk identical,,,,,,,,,,,,0,0,0,4096,0,0,yes,yes,1,0
+page,,0x10000,4096,Live and disk identical,,,,,,,,,,,,0,0,0,4096,0,0,yes,yes,1,0
+page,,0x11000,4096,Mixed,,,,,,,,,,,,1024,0,0,3072,0,0,yes,yes,1,0
+page,,0x12000,4096,Runtime modified,,,,,,,,,,,,0,0,0,0,4096,0,no,yes,0,0
+page,,0x13000,4096,Runtime modified,,,,,,,,,,,,0,0,0,0,4096,0,no,yes,0,0
+page,,0x14000,4096,Live and disk identical,,,,,,,,,,,,0,0,0,4096,0,0,no,yes,0,0
+page,,0x15000,4096,Live and disk identical,,,,,,,,,,,,0,0,0,4096,0,0,no,yes,0,0
+page,,0x16000,4096,Mixed,,,,,,,,,,,,512,0,0,3584,0,0,no,yes,0,0
+page,,0x17000,4096,Mixed,,,,,,,,,,,,1696,0,0,0,2400,0,no,yes,0,0
+page,,0x18000,4096,Live and disk identical,,,,,,,,,,,,0,0,0,4096,0,0,no,yes,0,0
+page,,0x19000,4096,Mixed,,,,,,,,,,,,3584,0,0,512,0,0,no,yes,0,0
+page,,0x1A000,4096,Mixed,,,,,,,,,,,,3584,0,0,0,512,0,no,yes,0,0
+page,,0x1B000,4096,Mixed,,,,,,,,,,,,2560,0,0,1536,0,0,no,yes,0,0
+page,,0x1C000,4096,Mixed,,,,,,,,,,,,3584,0,0,512,0,0,no,yes,0,0

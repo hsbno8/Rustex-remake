@@ -1,0 +1,31 @@
+record_type,name,rva,size,source,executable,complete,signature_eligible,disk_fallback_allowed,live_verification_bytes,disk_fallback_candidate_bytes,live_verification_pages,modified_pages,total_pages,modified_page_ratio,disk_fallback_reason,live_bytes,disk_bytes,loader_zero_bytes,identical_bytes,runtime_modified_bytes,unavailable_bytes,stability_checked,stable,stability_rereads,stability_changes
+section,".text",0x1000,23552,summary,yes,yes,yes,yes,23552,0,6,0,6,0,"No unavailable executable bytes require disk fallback.",23552,0,0,0,0,0,yes,yes,6,0
+section,".rdata",0x7000,15872,summary,no,yes,yes,no,15872,0,4,2,4,0.5,"The exact-build disk image was not verified.",15872,0,0,0,0,0,no,yes,0,0
+section,".data",0xB000,2092,summary,no,yes,yes,no,2092,0,1,1,1,1,"The exact-build disk image was not verified.",2092,0,0,0,0,0,no,yes,0,0
+section,".pdata",0xC000,1536,summary,no,yes,yes,no,1536,0,1,0,1,0,"The exact-build disk image was not verified.",1536,0,0,0,0,0,no,yes,0,0
+section,".didat",0xD000,512,summary,no,yes,yes,no,512,0,1,1,1,1,"The exact-build disk image was not verified.",512,0,0,0,0,0,no,yes,0,0
+section,".rsrc",0xE000,29696,summary,no,yes,yes,no,29696,0,8,0,8,0,"The exact-build disk image was not verified.",29696,0,0,0,0,0,no,yes,0,0
+section,".reloc",0x16000,512,summary,no,yes,yes,no,512,0,1,0,1,0,"The exact-build disk image was not verified.",512,0,0,0,0,0,no,yes,0,0
+page,,0x0,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,no,yes,0,0
+page,,0x1000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,yes,yes,1,0
+page,,0x2000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,yes,yes,1,0
+page,,0x3000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,yes,yes,1,0
+page,,0x4000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,yes,yes,1,0
+page,,0x5000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,yes,yes,1,0
+page,,0x6000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,yes,yes,1,0
+page,,0x7000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,no,yes,0,0
+page,,0x8000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,no,yes,0,0
+page,,0x9000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,no,yes,0,0
+page,,0xA000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,no,yes,0,0
+page,,0xB000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,no,yes,0,0
+page,,0xC000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,no,yes,0,0
+page,,0xD000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,no,yes,0,0
+page,,0xE000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,no,yes,0,0
+page,,0xF000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,no,yes,0,0
+page,,0x10000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,no,yes,0,0
+page,,0x11000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,no,yes,0,0
+page,,0x12000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,no,yes,0,0
+page,,0x13000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,no,yes,0,0
+page,,0x14000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,no,yes,0,0
+page,,0x15000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,no,yes,0,0
+page,,0x16000,4096,Live memory,,,,,,,,,,,,4096,0,0,0,0,0,no,yes,0,0
